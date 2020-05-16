@@ -4,7 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [scripts]
+freeze = "jq -r '.default | to_entries[] | .key + .value.version' Pipfile.lock"
 package = "python setup.py sdist bdist_wheel"
+publish = "python -m twine upload --repository pypi dist/*"
+test-publish = "python -m twine upload --repository testpypi dist/*"
 
 [dev-packages]
 
