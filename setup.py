@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="example-pkg-your-cohey0727",
-    version="0.0.1",
+    version="0.0.2",
     author="Example Author",
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Cohey0727/pypi_packaging_tutorial",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
