@@ -1,24 +1,25 @@
-bleach==3.1.5
-certifi==2020.4.5.1
-cffi==1.14.0
-chardet==3.0.4
-cryptography==2.9.2
+-i https://pypi.org/simple/
+bleach==3.3.0
+certifi==2020.12.5
+cffi==1.14.4
+chardet==4.0.0
+cryptography==3.3.1
 docutils==0.16
-idna==2.9
-jeepney==0.4.3
-keyring==21.2.1
-packaging==20.3
-pkginfo==1.5.0.1
+idna==2.10
+jeepney==0.6.0 ; sys_platform == 'linux'
+keyring==22.0.1
+packaging==20.9
+pkginfo==1.7.0
 pycparser==2.20
-pygments==2.6.1
+pygments==2.7.4
 pyparsing==2.4.7
-readme-renderer==26.0
-requests==2.23.0
+readme-renderer==28.0
 requests-toolbelt==0.9.1
-secretstorage==3.1.2
-six==1.14.0
-tqdm==4.46.0
+requests==2.25.1
+secretstorage==3.3.0 ; sys_platform == 'linux'
+six==1.15.0
+tqdm==4.56.0
 twine==3.1.1
-urllib3==1.25.9
+urllib3==1.26.3
 webencodings==0.5.1
 wheel==0.34.2
